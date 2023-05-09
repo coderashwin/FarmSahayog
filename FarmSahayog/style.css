@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+     display: flex; 
+    align-items: center;
+    height: 80px; /* set the height of the navbar */
+    background-color: #1f1e1e;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+
+  .navbar-name{
+    margin-left: 30px;
+  }
+  
+  .navbar-logo {
+    /* margin-right: auto; */
+    height: 100%; /* set the height of the logo to be 100% of the navbar height */
+
+  }
+  
+  .navbar-logo img {
+    height: 100%; /* set the height of the logo image to be 100% of the parent element (i.e., the navbar logo) */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin-right: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li:first-child {
+    margin-left: 1000px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .navbar-title {
+	font-size: 28px;
+	margin: 0;
+	padding-left: 10px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+
+  
+
+header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-background {
+    background-image: url("backgroundimage.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px;
+    height: 100vh;
+    width: -webkit-fill-available;
+  }
+
+  .header-background2 {
+    background-image: url("backgroundimage.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* padding: 200px; */
+    height: 100vh;
+    width: -webkit-fill-available;
+  }
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #3baf36;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2em;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #2c8632;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+  color: white;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+
+    margin-left: 370px;
+    padding: 20px;
+    width: 400px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+h2 {
+	margin-top: 0;
+	color: #6ab04c;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #d3d3d3;
+}
+
+button[type="submit"] {
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #6ab04c;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #5aa045;
+}
+
+
+.signup-background {
+    background-image: url("signup-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px;
+    height: 100vh;
+    width: -webkit-fill-available;
+}
+
+.signup-background h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.signup-background form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-background label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.signup-background input {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.signup-background button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
